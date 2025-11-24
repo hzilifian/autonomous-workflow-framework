@@ -13,7 +13,13 @@
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run clean && npm run build"
   },
-  "keywords": ["ai", "agent", "autonomous", "claude", "anthropic"],
+  "keywords": [
+    "ai",
+    "agent",
+    "autonomous",
+    "claude",
+    "anthropic"
+  ],
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
@@ -23,6 +29,8 @@
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.1.50",
-    "@anthropic-ai/sdk": "^0.70.1"
+    "@anthropic-ai/sdk": "^0.70.1",
+    "@types/uuid": "^10.0.0",
+    "uuid": "^13.0.0"
   }
 }

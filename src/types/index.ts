@@ -180,6 +180,7 @@ export interface AgentInput {
   workflowId: string;
   stageType: StageType;
   taskDescription: string;
+  projectType: ProjectType;
   context: AgentContext;
   previousStageOutput?: any;
   config: FrameworkConfig;
